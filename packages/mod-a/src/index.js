@@ -1,3 +1,3 @@
 export default function modA() {
-  return 'Mod A';
+  return 'This is module A';
 }
