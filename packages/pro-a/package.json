@@ -1,0 +1,35 @@
+{
+  "name": "pro-a",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pro-A",
+  "keywords": [
+    "project",
+    "a"
+  ],
+  "author": "nicolaszhao <nicola.zhao@wework.cn>",
+  "homepage": "",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "webpack serve --mode=development --config ../../webpack.config.js",
+    "build": "webpack --mode=production --config ../../webpack.config.js -o ../../dist/pro-a"
+  },
+  "dependencies": {
+    "@nicolaz/mod-a": "^0.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
