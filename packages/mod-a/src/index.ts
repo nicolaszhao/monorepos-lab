@@ -1,3 +1,3 @@
 export default function modA() {
-  return 'This is module A';
+  return '@nicolaz/mod-a';
 }

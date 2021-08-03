@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "noEmit": true,
+    "jsx": "react",
+    "baseUrl": "./packages",
+    "paths": {
+      "@nicolaz/*": ["mod-*"]
+    }
+  },
+  "include": ["packages"]
+}

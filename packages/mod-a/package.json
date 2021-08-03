@@ -2,21 +2,12 @@
   "name": "@nicolaz/mod-a",
   "version": "0.1.0",
   "description": "> TODO: description",
-  "author": "nicolaszhao <nicola.zhao@wework.cn>",
+  "author": "nicolaszhao <nicola-zhao@outlook.com>",
   "homepage": "",
   "license": "MIT",
-  "main": "dist/main.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
+  "main": "src/index.ts",
   "scripts": {
-    "build": "rollup src/index.js --file ./dist/main.js --format esm"
+    "test": "jest"
   },
-  "devDependencies": {
-    "rollup": "^2.47.0"
-  }
+  "devDependencies": {}
 }
